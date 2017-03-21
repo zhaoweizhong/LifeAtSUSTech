@@ -1,7 +1,7 @@
 # 项目文档
 
 ## 介绍
-Life@SUSTech 是南科导航(https://sustech.net)的重构版。
+Life@SUSTech 是南科导航(https://sustech.net) 的重构版。
 
 ## 功能
 ### 多引擎搜索

@@ -16,7 +16,7 @@ Life@SUSTech 是南科导航(https://sustech.net) 的重构版。
 ### 赞助页面
 
 ## 开发进度
-筹划中
+筹划中<br>
 项目Deadline：2017年8月前
 
 ## 开发语言

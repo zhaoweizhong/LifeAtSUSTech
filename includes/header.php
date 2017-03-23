@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="index-page">
+<body class="<?php echo $pageType ?>-page">
 <!-- Navbar -->
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 	<div class="container">

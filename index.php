@@ -1,6 +1,7 @@
 <?php
 require 'includes/header.php';
-$pageTitle = ''
+$pageTitle = '';
+$pageType = 'index';
 ?>
 
 <div class="wrapper">

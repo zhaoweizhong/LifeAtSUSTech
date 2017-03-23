@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="../favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title><?php echo $pageTitle ?>南科导航 - SUSTech Navigation</title>
+	<title><?php echo $pageTitle; ?>南科导航 - SUSTech Navigation</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="<?php echo $pageType ?>-page">
+<body class="<?php echo $pageType; ?>-page">
 <!-- Navbar -->
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 	<div class="container">

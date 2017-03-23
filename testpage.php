@@ -1,7 +1,7 @@
 <?php
 require 'includes/header.php';
-$pageTitle = '测试页&nbsp;-&nbsp;';
-$pageType = 'tutorial';
+$pageTitle = "测试页&nbsp;-&nbsp;";
+$pageType = "tutorial";
 ?>
 
 <div class="wrapper">

@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* 本style.css借鉴于ustc.life的开源项目，在此声明并感谢 */
+/* 本style.css部分借鉴于ustc.life的开源项目，在此声明并感谢 */
 
 /*================================================= Reset ============================================================*/
 /*
@@ -24,7 +24,7 @@ a, a:link, a:visited {
    text-decoration: none!important;
 }
 
-a:hover {
+a.focus:hover {
     color: #3498DB!important;
     transition:color 0.5s;
 }

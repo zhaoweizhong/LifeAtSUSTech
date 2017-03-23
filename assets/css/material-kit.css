@@ -1969,6 +1969,12 @@ footer .copyright {
   padding: 15px 0;
   text-decoration: none!important;
 }
+
+a.nodeco {
+  text-decoration: none!important;
+  color: black!important;
+}
+
 footer .copyright .material-icons {
   font-size: 18px;
   position: relative;

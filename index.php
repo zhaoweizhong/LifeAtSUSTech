@@ -1,7 +1,7 @@
 <?php
-require 'includes/header.php';
 $pageTitle = "";
 $pageType = "index";
+require 'includes/header.php';
 ?>
 
 <div class="wrapper">

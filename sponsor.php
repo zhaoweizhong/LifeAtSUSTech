@@ -3,8 +3,6 @@ $pageTitle = "赞助&nbsp;-&nbsp;";
 $pageType = "tutorial";
 require 'includes/header.php';
 $orderID = date('Ymd') . str_pad(mt_rand(1, 999999), 6, '0', STR_PAD_LEFT);
-require_once("alipay/alipay.config.php");
-require_once("alipay/lib/alipay_notify.class.php");
 ?>
 
 <div class="wrapper">

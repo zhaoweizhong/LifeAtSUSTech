@@ -53,8 +53,8 @@
         <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
                 <li><a href="javascript:void()" onclick="setHome(this, window.location)"><i class="material-icons">home</i>设为首页</a></li>
-                <li><a href="../sponsor.php"><i class="fa fa-money" aria-hidden="true"></i>赞助本站</a></li>
-                <li><a href="http://old.sustech.net"><i class="material-icons">restore</i>返回旧版</a></li>
+                <li><a href="../sponsor.php"  target="_blank"><i class="fa fa-money" aria-hidden="true"></i> 赞助本站</a></li>
+                <li><a href="http://old.sustech.net"  target="_blank"><i class="material-icons">restore</i>返回旧版</a></li>
             </ul>
 	    </div>
 	</div>

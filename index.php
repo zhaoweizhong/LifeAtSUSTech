@@ -37,6 +37,19 @@ require 'includes/header.php';
 	<div class="main main-raised">
         <div class="section section-basic">
             <div class="container">
+                <div class="alert alert-info">
+                    <div class="container-fluid">
+                        <div class="alert-icon">
+                            <i class="material-icons">info_outline</i>
+                        </div>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true"><i class="material-icons">clear</i></span>
+                        </button>
+                        <strong>提示：</strong> 由于本站的域名和服务器是一笔<strong>很大的开销</strong>，另外维护站点也耗费时间精力，所以，喜欢本站就<strong><a href="sponsor.php">赞助</a></strong>吧~
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="sponsor.php" target="_blank">点我赞助</a>
+                    </div>
+                </div>
                 <div class="main-col">
 
                     <div class="main-block">

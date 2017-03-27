@@ -51,6 +51,16 @@ html, body, h1, h2, a, p, span, div {
 .navShadow {
     text-shadow:0 0 5px #000!important;
 }
+
+::selection {
+    background: #b2d7ff;
+}
+::-moz-selection {
+    background:#b2d7ff;
+}
+::-webkit-selection {
+    background:#b2d7ff;
+}
 /*=============================================== END Reset ==========================================================*/
 /*=================================================== banner ===========================================================*/
 .banner {

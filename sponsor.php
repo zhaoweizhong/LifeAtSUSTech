@@ -30,7 +30,7 @@ $orderID = date('Ymd') . str_pad(mt_rand(1, 999999), 6, '0', STR_PAD_LEFT);
                                 </p>
                             </blockquote><br>
                             <h3>支付方式</h3>
-                            <p>这里提供了三种方式，任选一个就可以啦，如果用支付宝或微信扫码，记得备注昵称和留言喔</p>
+                            <p>这里提供了三种方式，<strong><u>任选一个</u></strong>就可以啦，如果用支付宝或微信扫码，<strong><u>记得备注昵称和留言</u></strong>喔</p>
                             <div class="col-xs-6 col-md-4">
                                 <form action="alipay/alipayapi.php" class="form" method="post" target="_blank">
                                     <div class="alipayTitle text-center">
@@ -93,6 +93,18 @@ $orderID = date('Ymd') . str_pad(mt_rand(1, 999999), 6, '0', STR_PAD_LEFT);
                                     <td>南风点点</td>
                                     <td>￥66</td>
                                     <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td>Metaron</td>
+                                    <td>￥2</td>
+                                    <td>大佬求带飞</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">3</td>
+                                    <td>英国花猫</td>
+                                    <td>￥6.66</td>
+                                    <td>小小心意</td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">...</td>

@@ -31,9 +31,6 @@
         <div class="navbar-header">
 	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
 	        	<span class="sr-only">南科导航</span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
 	    	</button>
 	    	<a href="https://sustech.net">
 	        	<div class="logo-container">
@@ -52,9 +49,9 @@
 
         <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
-                <li><a href="javascript:void()" onclick="setHome(this, window.location)"><i class="material-icons">home</i>设为首页</a></li>
-                <li><a href="../sponsor.php"  target="_blank"><i class="fa fa-money" aria-hidden="true"></i> 赞助本站</a></li>
-                <li><a href="http://old.sustech.net"  target="_blank"><i class="material-icons">restore</i>返回旧版</a></li>
+                <li><a href="javascript:void()" onclick="setHome(this, window.location)" class="navShadow"><i class="material-icons">home</i>设为首页</a></li>
+                <li><a href="../sponsor.php"  target="_blank" class="navShadow"><i class="fa fa-money" aria-hidden="true"></i> 赞助本站</a></li>
+                <li><a href="http://old.sustech.net"  target="_blank" class="navShadow"><i class="material-icons">restore</i>返回旧版</a></li>
             </ul>
 	    </div>
 	</div>

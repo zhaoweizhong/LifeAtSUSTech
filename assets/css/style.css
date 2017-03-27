@@ -48,7 +48,9 @@ html, body, h1, h2, a, p, span, div {
     font-weight: normal;
     font-family: "Helvetica Neue", "Hiragino Sans GB", "微软雅黑", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-
+.navShadow {
+    text-shadow:0 0 5px #000!important;
+}
 /*=============================================== END Reset ==========================================================*/
 /*=================================================== banner ===========================================================*/
 .banner {

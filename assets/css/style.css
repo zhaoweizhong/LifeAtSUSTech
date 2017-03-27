@@ -49,6 +49,15 @@ html, body, h1, h2, a, p, span, div {
     font-family: "Helvetica Neue", "Hiragino Sans GB", "微软雅黑", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
+::selection {
+    background:#b2d7ff;
+
+::-moz-selection {
+    background:#b2d7ff;
+}
+::-webkit-selection {
+    background:#b2d7ff;
+}
 /*=============================================== END Reset ==========================================================*/
 /*=================================================== banner ===========================================================*/
 .banner {

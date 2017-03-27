@@ -1,69 +1,149 @@
 <?php
-/* * 
- * 功能：支付宝页面跳转同步通知页面
- * 版本：3.3
- * 日期：2012-07-23
- * 说明：
- * 以下代码只是为了方便商户测试而提供的样例代码，商户可以根据自己网站的需要，按照技术文档编写,并非一定要使用该代码。
- * 该代码仅供学习和研究支付宝接口使用，只是提供一个参考。
-
- *************************页面功能说明*************************
- * 该页面可在本机电脑测试
- * 可放入HTML等美化页面的代码、商户业务逻辑程序代码
- * 该页面可以使用PHP开发工具调试，也可以使用写文本函数logResult，该函数已被默认关闭，见alipay_notify_class.php中的函数verifyReturn
- */
-
+$pageTitle = "赞助&nbsp;-&nbsp;";
+$pageType = "tutorial";
+require '../includes/header.php';
+$orderID = date('Ymd') . str_pad(mt_rand(1, 999999), 6, '0', STR_PAD_LEFT);
 require_once("alipay.config.php");
 require_once("lib/alipay_notify.class.php");
 ?>
-<!DOCTYPE HTML>
-<html>
-    <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<?php
-//计算得出通知验证结果
-$alipayNotify = new AlipayNotify($alipay_config);
-$verify_result = $alipayNotify->verifyReturn();
-if($verify_result) {//验证成功
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//请在这里加上商户的业务逻辑程序代码
-	
-	//——请根据您的业务逻辑来编写程序（以下代码仅作参考）——
-    //获取支付宝的通知返回参数，可参考技术文档中页面跳转同步通知参数列表
 
-	//商户订单号
-	$out_trade_no = $_GET['out_trade_no'];
+    <div class="wrapper">
+        <div class="header header-filter" style="background-image: url('https://cache.sustech.net/bg2.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h1 class="title text-center">赞助本站</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	//支付宝交易号
-	$trade_no = $_GET['trade_no'];
+        <div class="main main-raised">
+            <div class="section">
+                <div class="container">
+                    <div class="row tim-row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="row">
+                                <?php
+                                $out_trade_no = $_GET['out_trade_no'];
+                                $trade_no = $_GET['trade_no'];
+                                $trade_status = $_GET['trade_status'];
+                                if($_GET['trade_status'] == 'TRADE_FINISHED' || $_GET['trade_status'] == 'TRADE_SUCCESS') {
+                                    echo "<div class=\"alert alert-success\">
+                                <div class=\"container-fluid\">
+                                    <div class=\"alert-icon\">
+                                        <i class=\"material-icons\">check</i>
+                                    </div>
+                                    <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
+                                        <span aria-hidden=\"true\"><i class=\"material-icons\">clear</i></span>
+                                    </button>
+                                    <strong>支付成功！</strong> 感谢对我的支持，您的赞助经验证后将会被记录进本页下方的表格。
+                                </div>
+                            </div>";
+                                }
+                                else {
+                                    echo "<div class=\"alert alert-danger\">
+                                <div class=\"container-fluid\">
+                                    <div class=\"alert-icon\">
+                                        <i class=\"material-icons\">error_outline</i>
+                                    </div>
+                                    <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
+                                        <span aria-hidden=\"true\"><i class=\"material-icons\">clear</i></span>
+                                    </button>
+                                    <strong>支付失败！</strong> 请重新点击支付。
+                                </div>
+                            </div>";
+                                }
+                                ?>
+                                <blockquote>
+                                    <p>
+                                        由于本站的域名和服务器是一笔<b>很大的开销</b>，另外维护站点也耗费时间精力，所以，<br>
+                                        <b>喜欢本站就赞助吧~</b> 一元不嫌少，百元不嫌多喔 *٩(๑´∀`๑)ง*<br>
+                                        赞助者名单将会在下方给出，谢谢大家~
+                                    </p>
+                                </blockquote><br>
+                                <h3>支付方式</h3>
+                                <p>这里提供了三种方式，任选一个就可以啦，如果用支付宝或微信扫码，记得备注昵称和留言喔</p>
+                                <div class="col-xs-6 col-md-4">
+                                    <form action="alipayapi.php" class="form" method="post" target="_blank">
+                                        <div class="alipayTitle text-center">
+                                            <img src="https://cache.sustech.net/alipay.jpg" width="120px">
+                                            <span class="label label-info">网页付款</span>
+                                        </div>
+                                        <div hidden><input type="text" name="WIDout_trade_no" id="out_trade_no" value="<?php echo $orderID ?>"></div>
+                                        <div hidden><input type="text" name="WIDsubject" value="赞助南科导航"></div>
+                                        <div class="form-group label-floating is-empty">
+                                            <label class="control-label">赞助金额</label>
+                                            <input type="text" class="form-control" name="WIDtotal_fee">
+                                            <span class="material-input"></span>
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">姓名/昵称</label>
+                                            <input type="text" class="form-control" name="Name">
+                                            <span class="material-input"></span>
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">留言</label>
+                                            <input type="text" class="form-control" name="Said">
+                                            <span class="material-input"></span>
+                                        </div>
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-info">确认支付</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-xs-6 col-md-4">
+                                    <div class="alipayTitle text-center">
+                                        <img src="https://cache.sustech.net/alipay.jpg" width="120px">
+                                        <span class="label label-info">扫码付款</span>
+                                    </div>
+                                    <img src="https://cache.sustech.net/alipayQR.jpg" height=267px>
+                                </div>
+                                <div class="col-xs-6 col-md-4">
+                                    <div class="alipayTitle text-center">
+                                        <img src="https://cache.sustech.net/wechat.jpg" width="120px">
+                                        <span class="label label-success">扫码付款</span>
+                                    </div>
+                                    <img src="https://cache.sustech.net/wechatQR.jpg" height=267px>
+                                </div>
+                            </div>
+                            <div class="clearfix visible-xs-block"><br></div><br>
+                            <div>
+                                <h3>赞助名单</h3>
+                                <p>感谢以下同学们的赞助~</p>
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th class="text-center">#</th>
+                                        <th>姓名/昵称</th>
+                                        <th>赞助金额</th>
+                                        <th>留言</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="text-center">1</td>
+                                        <td>南风点点</td>
+                                        <td>￥66</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">...</td>
+                                        <td>等你来</td>
+                                        <td>￥∞</td>
+                                        <td>-</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
 
-	//交易状态
-	$trade_status = $_GET['trade_status'];
+                    </div>
 
+                </div>
+            </div>
+        </div>
 
-    if($_GET['trade_status'] == 'TRADE_FINISHED' || $_GET['trade_status'] == 'TRADE_SUCCESS') {
-		//判断该笔订单是否在商户网站中已经做过处理
-			//如果没有做过处理，根据订单号（out_trade_no）在商户网站的订单系统中查到该笔订单的详细，并执行商户的业务程序
-			//如果有做过处理，不执行商户的业务程序
-    }
-    else {
-      echo "trade_status=".$_GET['trade_status'];
-    }
-		
-	echo "验证成功<br />";
+    </div>
 
-	//——请根据您的业务逻辑来编写程序（以上代码仅作参考）——
-	
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-}
-else {
-    //验证失败
-    //如要调试，请看alipay_notify.php页面的verifyReturn函数
-    echo "验证失败";
-}
-?>
-        <title>支付宝即时到账交易接口</title>
-	</head>
-    <body>
-    </body>
-</html>
+<?php require '../includes/footer.php'; ?>

@@ -5,7 +5,7 @@ require 'includes/header.php';
 ?>
 
 <div class="wrapper">
-	<div class="header header-filter" style="background-image: url('https://cache.sustech.net/bg2.jpeg');">
+	<div class="header header-filter" style="background-image: url('https://cache.sustech.net/bg1.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">

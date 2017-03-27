@@ -116,3 +116,29 @@ html, body, h1, h2, a, p, span, div {
 	color: black!important;
 }
 /*================================================= END main =========================================================*/
+/*=================================================  payment =========================================================*/
+
+.etitle,.einput {
+    float:left;
+    height:26px
+}
+.payBtn {
+    margin: 0 auto;
+}
+.einput {
+    width:200px;
+    margin-left:20px
+}
+.einput input {
+    width:398px;
+    height:24px;
+    border:1px solid #0ae!important;
+    font-size:16px
+}
+.alipayform {
+    width:800px;
+    margin:0 auto;
+    height:600px;
+    border:1px solid #0ae!important;
+}
+/*================================================ END payment =======================================================*/

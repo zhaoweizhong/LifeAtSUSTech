@@ -1,6 +1,8 @@
 <?php
 $pageTitle = "赞助&nbsp;-&nbsp;";
 $pageType = "tutorial";
+$active1 = "";
+$active2 = "";
 require 'includes/header.php';
 $orderID = date('Ymd') . str_pad(mt_rand(1, 999999), 6, '0', STR_PAD_LEFT);
 ?>

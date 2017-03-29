@@ -1,6 +1,8 @@
 <?php
 $pageTitle = "测试页&nbsp;-&nbsp;";
 $pageType = "tutorial";
+$active1 = "";
+$active2 = "";
 require 'includes/header.php';
 ?>
 

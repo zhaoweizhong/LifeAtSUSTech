@@ -48,10 +48,14 @@
 
 
         <div class="collapse navbar-collapse" id="navigation-index">
+            <ul class="nav navbar-nav">
+                <li <?php echo $active1; ?>><a href="https://sustech.net/" class="navShadow"><i class="fa fa-home" aria-hidden="true"></i> 首页</a></li>
+                <li <?php echo $active2; ?>><a href="../bus.php"  target="_blank" class="navShadow"><i class="fa fa-bus" aria-hidden="true"></i> 校园巴士</a></li>
+            </ul>
 	    	<ul class="nav navbar-nav navbar-right">
-                <li><a href="javascript:void()" onclick="setHome(this, window.location)" class="navShadow"><i class="material-icons">home</i>设为首页</a></li>
+                <li><a href="javascript:void()" onclick="setHome(this, window.location)" class="navShadow"><i class="fa fa-home" aria-hidden="true"></i> 设为首页</a></li>
                 <li><a href="../sponsor.php"  target="_blank" class="navShadow"><i class="fa fa-money" aria-hidden="true"></i> 赞助本站</a></li>
-                <li><a href="http://old.sustech.net"  target="_blank" class="navShadow"><i class="material-icons">restore</i>返回旧版</a></li>
+                <li><a href="http://old.sustech.net"  target="_blank" class="navShadow"><i class="fa fa-clock-o" aria-hidden="true"></i> 返回旧版</a></li>
             </ul>
 	    </div>
 	</div>

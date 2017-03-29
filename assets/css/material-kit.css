@@ -1917,7 +1917,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
   background-color: #1ABC9C;
   color: #FFFFFF;
-  box-shadow: 0 16px 26px -10px rgba(156, 39, 176, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+  box-shadow: 0 16px 26px -10px #179077, 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px #126450;
 }
 .nav-pills.nav-pills-info > li.active > a, .nav-pills.nav-pills-info > li.active > a:focus, .nav-pills.nav-pills-info > li.active > a:hover {
   background-color: #03a9f4;

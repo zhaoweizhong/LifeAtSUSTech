@@ -1,6 +1,8 @@
 <?php
 $pageTitle = "";
 $pageType = "index";
+$active1 = "class=\"active\"";
+$active2 = "";
 require 'includes/header.php';
 ?>
 

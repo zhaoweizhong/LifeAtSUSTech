@@ -29,7 +29,7 @@
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 	<div class="container">
         <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+	    	<button type="button" class="fa fa-bars navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
 	        	<span class="sr-only">南科导航</span>
 	    	</button>
 	    	<a href="https://sustech.net">

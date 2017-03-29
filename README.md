@@ -16,8 +16,8 @@ Life@SUSTech 是南科导航(https://sustech.net) 的重构版。
 ### 赞助页面
 
 ## 开发进度
-![status](https://img.shields.io/badge/status-building-green.svg)&nbsp;&nbsp;![process](https://img.shields.io/badge/build-15%25-orange.svg)<br>
-15% - 赞助页面完成<br>
+![status](https://img.shields.io/badge/status-building-green.svg)&nbsp;&nbsp;![process](https://img.shields.io/badge/build-25%25-orange.svg)<br>
+25% - 校园巴士时刻表完成<br>
 项目Deadline：2017年8月
 
 ## 开发语言

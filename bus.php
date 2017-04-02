@@ -64,7 +64,7 @@ if ($isWeekday == 1){ // 工作日
     for ($counter = 0; $counter <= 15; $counter++){
         if ($time > $libraryTimeWeekend[$counter] && $time <= $libraryTimeWeekend[$counter + 1]){
             $isBus = 1;
-            $libraryNextBus = $libraryTimeWeekday[$counter + 1];
+            $libraryNextBus = $libraryTimeWeekend[$counter + 1];
             break;
         }elseif ($time > '21:00' || $time <= '04:00'){
             $isBus = 0;

@@ -22,28 +22,29 @@ $libraryTimeWeekday = array('04:00','08:30','09:50','10:00','11:45','12:00','12:
 $liyuanTimeWeekend = array('04:00','07:40','08:20','08:50','09:20','09:50','11:00','11:30','12:00','14:00','14:30','15:00','16:00','17:00','19:00','20:00','20:45');
 $libraryTimeWeekend = array('04:00','08:05','08:35','09:05','09:35','10:05','11:15','11:45','12:15','14:15','14:45','15:15','16:15','17:15','19:15','20:15','21:00');
 /* 荔园 */
-    $isBus = 0;
+    $isLibraryBus = 0;
+    $isLiyuanBus = 0;
     $liyuanNextBus = '';
     $libraryNextBus = '';
 if ($isWeekday == 1){ // 工作日
     for ($counter = 0; $counter <= 22; $counter++){
         if ($time > $liyuanTimeWeekday[$counter] && $time <= $liyuanTimeWeekday[$counter + 1]){
-            $isBus = 1;
+            $isLiyuanBus = 1;
             $liyuanNextBus = $liyuanTimeWeekday[$counter + 1];
             break;
         }elseif ($time > '21:00' || $time <= '04:00'){
-            $isBus = 0;
+            $isLiyuanBus = 0;
             break;
         }else{}
     }
 }else{ // 周末
     for ($counter = 0; $counter <= 16; $counter++){
         if ($time > $liyuanTimeWeekend[$counter] && $time <= $liyuanTimeWeekend[$counter + 1]){
-            $isBus = 1;
+            $isLiyuanBus = 1;
             $liyuanNextBus = $liyuanTimeWeekend[$counter + 1];
             break;
         }elseif ($time > '22:05' || $time <= '04:00'){
-            $isBus = 0;
+            $isLiyuanBus = 0;
             break;
         }else{}
     }
@@ -52,22 +53,22 @@ if ($isWeekday == 1){ // 工作日
 if ($isWeekday == 1){ // 工作日
     for ($counter = 0; $counter <= 15; $counter++){
         if ($time > $libraryTimeWeekday[$counter] && $time <= $libraryTimeWeekday[$counter + 1]){
-            $isBus = 1;
+            $isLibraryBus = 1;
             $libraryNextBus = $libraryTimeWeekday[$counter + 1];
             break;
         }elseif ($time > '20:45' || $time <= '04:00'){
-            $isBus = 0;
+            $isLibraryBus = 0;
             break;
         }else{}
     }
 }else{ // 周末
     for ($counter = 0; $counter <= 15; $counter++){
         if ($time > $libraryTimeWeekend[$counter] && $time <= $libraryTimeWeekend[$counter + 1]){
-            $isBus = 1;
+            $isLibraryBus = 1;
             $libraryNextBus = $libraryTimeWeekend[$counter + 1];
             break;
         }elseif ($time > '21:00' || $time <= '04:00'){
-            $isBus = 0;
+            $isLibraryBus = 0;
             break;
         }else{}
     }
@@ -93,8 +94,12 @@ if ($isWeekday == 1){ // 工作日
                         <blockquote>
                             <p>
                                 <?php
-                                    if ($isBus == 1){
+                                    if ($isLibraryBus == 1 && $isLiyuanBus == 1){
                                         echo '由荔园开出的下一班车的发车时间是:<strong>'.$liyuanNextBus.'</strong>，由图书馆开出的下一班车的发车时间是:<strong>'.$libraryNextBus.'</strong>';
+                                    }else if ($isLiyuanBus == 1 && $isLibraryBus == 0){
+                                        echo '很不幸运，你错过了图书馆开出的的末班车...多走路锻炼身体吧；由荔园开出的下一班车的发车时间是:<strong>'.$liyuanNextBus.'</strong>';
+                                    }else if ($isLiyuanBus == 0 && $isLibraryBus == 1){
+                                        echo '很不幸运，你错过了荔园开出的的末班车...多走路锻炼身体吧；由图书馆开出的下一班车的发车时间是:<strong>'.$libraryNextBus.'</strong>';
                                     }else{
                                         echo '很不幸运，你错过了末班车...多走路锻炼身体吧';
                                     }

@@ -2,25 +2,24 @@
 <html lang="zh-cn">
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="../favicon.ico">
+	<link rel="icon" type="image/png" href="https://cache.sustech.net/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta http-equiv="Access-Control-Allow-Origin" content="*">
 	<title><?php echo $pageTitle; ?>南科导航 - SUSTech Navigation</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/icon?family=Material+Icons" />
-	<link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cache.sustech.net/assets/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/material-kit.css" rel="stylesheet"/>
-	<link href="../assets/css/fontdiao.css" rel="stylesheet"/>
-    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="https://cache.sustech.net/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cache.sustech.net/assets/css/material-kit.css" rel="stylesheet"/>
+	<link href="https://cache.sustech.net/assets/css/fontdiao.css" rel="stylesheet"/>
+    <link href="https://cache.sustech.net/assets/css/style.css" rel="stylesheet" />
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="../assets/css/demo.css" rel="stylesheet" />
+	<link href="https://cache.sustech.net/assets/css/demo.css" rel="stylesheet" />
 
 </head>
 
@@ -35,7 +34,7 @@
 	    	<a href="https://sustech.net">
 	        	<div class="logo-container">
 	                <div class="logo">
-	                    <img src="../assets/img/logo.png" alt="南科导航" rel="tooltip" title="<b>南科导航</b>" data-placement="bottom" data-html="true">
+	                    <img src="https://cache.sustech.net/assets/img/logo.png" alt="南科导航" rel="tooltip" title="<b>南科导航</b>" data-placement="bottom" data-html="true">
 	                </div>
 	                <div class="brand">
 	                    南科导航<br>SUSTech Navigation

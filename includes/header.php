@@ -1,4 +1,3 @@
-<?php header('Access-Control-Allow-Origin:*'); ?>
 <!doctype html>
 <html lang="zh-cn">
 <head>

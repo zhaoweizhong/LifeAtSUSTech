@@ -43,7 +43,7 @@ if ($isWeekday == 1){ // 工作日
             $isLiyuanBus = 1;
             $liyuanNextBus = $liyuanTimeWeekend[$counter + 1];
             break;
-        }elseif ($time > '22:05' || $time <= '04:00'){
+        }elseif ($time > '20:45' || $time <= '04:00'){
             $isLiyuanBus = 0;
             break;
         }else{}
@@ -56,7 +56,7 @@ if ($isWeekday == 1){ // 工作日
             $isLibraryBus = 1;
             $libraryNextBus = $libraryTimeWeekday[$counter + 1];
             break;
-        }elseif ($time > '20:45' || $time <= '04:00'){
+        }elseif ($time > '22:05' || $time <= '04:00'){
             $isLibraryBus = 0;
             break;
         }else{}

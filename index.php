@@ -110,13 +110,12 @@ require 'includes/header.php';
                 <span class="block-title"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;乐在南科</span>
                 <div class="block-grid-wrapper">
                     <div class="block-grid">
-                        <a class="focus">
-                            <i class="fa fa-comments fa-4x" aria-hidden="true"></i><br>BBS论坛(筹)
+                        <a class="focus" href="https://bbs.sustech.net" target="_blank">
+                            <i class="fa fa-comments fa-4x" aria-hidden="true"></i><br>BBS论坛(测试)
                         </a>
                     </div>
                     <div class="block-grid">
-                        <a href="http://tieba.baidu.com/%E5%8D%97%E6%96%B9%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6"
-                           target="_blank" class="focus">
+                        <a href="http://tieba.baidu.com/%E5%8D%97%E6%96%B9%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" target="_blank" class="focus">
                             <i class="icon-baidu" aria-hidden="true"></i><br>百度贴吧
                         </a></div>
                     <div class="block-grid">

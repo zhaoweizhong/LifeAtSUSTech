@@ -273,10 +273,6 @@ require 'includes/header.php';
                 <span class="block-title"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;友情链接</span>
                 <div class="block-grid-wrapper">
                     <div class="block-grid">
-                        <a href="https://store.sustech.net" target="_blank" class="focus">
-                            <i class="fa fa-shopping-cart fa-4x" aria-hidden="true"></i><br>软件商城
-                        </a></div>
-                    <div class="block-grid">
                         <a href="http://nkd.nanfengfood.com/" target="_blank" class="focus">
                             <i class="fa fa-cutlery fa-4x" aria-hidden="true"></i><br>南风外卖
                         </a></div>
@@ -292,6 +288,7 @@ require 'includes/header.php';
                         <a href="https://www.wenjuan.com/s/Yvimua/" target="_blank" class="focus">
                             <i class="fa fa-file-text-o fa-4x" aria-hidden="true"></i><br>申请友链
                         </a></div>
+                    <div class="block-grid"></div>
                     <div class="block-grid"></div>
                     <div class="clear"></div>
                 </div>

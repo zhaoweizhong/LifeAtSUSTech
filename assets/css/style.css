@@ -127,4 +127,10 @@ html, body, h1, h2, a, p, span, div {
 .foota {
 	color: black!important;
 }
+
+.h-inline {
+    display:inline-block;
+    *display: inline;
+    *zoom: 1;
+}
 /*================================================= END main =========================================================*/

@@ -7,6 +7,7 @@
 	<title><?php echo $pageTitle; ?>南科导航 - SUSTech Navigation</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="baidu-site-verification" content="Yw5KH73QOt" />
 
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/icon?family=Material+Icons" />

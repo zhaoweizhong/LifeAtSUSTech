@@ -12,13 +12,12 @@ Life@SUSTech 是南科导航(https://sustech.net) 的重构版。
 ### 表白墙（筹）
 ### 校园巴士时刻表
 ### 讲座、活动信息发布（联系学生会）
-### 社团小站（筹）
+### 社团小站（已移出本项目，见https://sustc.club ）
 ### 赞助页面
 
 ## 开发进度
-![status](https://img.shields.io/badge/status-building-green.svg)&nbsp;&nbsp;![process](https://img.shields.io/badge/build-25%25-orange.svg)<br>
-25% - 校园巴士时刻表完成<br>
-项目Deadline：2017年8月
+![status](https://img.shields.io/badge/status-building-green.svg)&nbsp;&nbsp;![process](https://img.shields.io/badge/build-30%30-orange.svg)<br>
+30% - 社团小站另起项目已独立完成<br>
 
 ## 开发语言
 PHP
@@ -71,8 +70,9 @@ PHP
 * 内容可分类
 * 联系学生会
 
-### 社团小站（筹）
-* 可能采用网上的源码
+### 社团小站（已移出本项目，见https://sustc.club ）
+* ~~可能采用网上的源码~~
+* 采用Wordpress多站点
 * 与社联合作
 
 ### 赞助页面

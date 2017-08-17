@@ -2,7 +2,7 @@
 <footer class="footer">
     <div class="container">
         <div class="copyright pull-left">
-            陕ICP备16009987号&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260604593'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260604593%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+            粤ICP备17098640号&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260604593'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260604593%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
         </div>
         <div class="copyright pull-right">
         Copyright&nbsp;<i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2016&nbsp;南方科技大学&nbsp;1617班&nbsp;<a class="nodeco" href="https://zzw.at" target="_blank">钟兆玮</a>        </div>

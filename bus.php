@@ -352,7 +352,6 @@ if ($isWeekday == 1){ // 工作日
                                                 <td <?php if ($time <= '20:20' && $time > '19:20'){echo "class=\"success\"";}?>>20:20</td>
                                                 <td <?php if ($time <= '21:20' && $time > '20:20'){echo "class=\"success\"";}?>>21:20</td>
                                                 <td <?php if ($time <= '22:00' && $time > '21:20'){echo "class=\"success\"";}?>>22:00</td>
-                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>-</td>

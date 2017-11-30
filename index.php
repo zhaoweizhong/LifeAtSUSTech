@@ -39,7 +39,7 @@ require 'includes/header.php';
 	<div class="main main-raised">
         <div class="section section-basic">
             <div class="container">
-                <div class="alert alert-info">
+                <!--div class="alert alert-info">
                     <div class="container-fluid">
                         <div class="alert-icon">
                             <i class="material-icons">info_outline</i>
@@ -51,7 +51,19 @@ require 'includes/header.php';
                         &nbsp;&nbsp;&nbsp;
                         <a href="sponsor.php" target="_blank">点我赞助</a>
                     </div>
-                </div>
+                </div-->
+		<div class="ad-banner">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 南科导航-Banner -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-6170983579457537"
+			     data-ad-slot="4926806166"
+			     data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
                 <div class="main-col">
 
                     <div class="main-block">
@@ -295,13 +307,25 @@ require 'includes/header.php';
             </div>
                 </div>
                 <div class="clear"></div>
-                <div class="alert alert-success" role="alert">
+                <!--div class="alert alert-success" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true"><i class="material-icons">clear</i></span>
                     </button>
                     <strong><i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;提示：</strong> 这是一次样式升级，包含更多功能的正式版将于6个月内推出，敬请期待~ *٩(๑´∀`๑)ง* &nbsp;&nbsp;&nbsp;项目Github：<a href="https://github.com/zhaoweizhong/LifeAtSUSTech"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;欢迎各位dalao加入CRA Web Team我一起开发。<br>
 
-                </div>
+                </div-->
+		<div class="ad-banner">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 南科导航-Banner -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-6170983579457537"
+			     data-ad-slot="4926806166"
+			     data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
             </div>
         </div>
     </div>

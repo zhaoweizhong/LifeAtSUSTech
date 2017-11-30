@@ -4,14 +4,15 @@
         <div class="copyright pull-left">
             <a href="http://www.miitbeian.gov.cn" style="color: #333;">粤ICP备17098640号</a>&nbsp;
             <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110488424-1"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110488424-2"></script>
+                <script>
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
 
-              gtag('config', 'UA-110488424-1');
-            </script>
+                  gtag('config', 'UA-110488424-2');
+                </script>
+
 
         </div>
         <div class="copyright pull-right">

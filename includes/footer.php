@@ -2,7 +2,17 @@
 <footer class="footer">
     <div class="container">
         <div class="copyright pull-left">
-            <a href="http://www.miitbeian.gov.cn" style="color: #333;">粤ICP备17098640号</a>&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260604593'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260604593%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+            <a href="http://www.miitbeian.gov.cn" style="color: #333;">粤ICP备17098640号</a>&nbsp;
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110488424-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'UA-110488424-1');
+            </script>
+
         </div>
         <div class="copyright pull-right">
         Copyright&nbsp;<i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2017&nbsp;洛米科技（深圳）有限公司</div>

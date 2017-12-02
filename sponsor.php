@@ -21,18 +21,18 @@ $orderID = date('Ymd') . str_pad(mt_rand(1, 999999), 6, '0', STR_PAD_LEFT);
     <div class="main main-raised">
         <div class="section">
             <div class="container">
-                <div class="ad-banner">
+                <!--div class="ad-banner">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 南科导航-Banner -->
-                        <ins class="adsbygoogle"
+                        <!--ins class="adsbygoogle"
                              style="display:block"
                              data-ad-client="ca-pub-6170983579457537"
                              data-ad-slot="4926806166"
-                             data-ad-format="auto"></ins>
-                        <script>
+                             data-ad-format="auto"></ins-->
+                        <!--script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                    </div>
+                        </script-->
+                    </div-->
                 <div class="row tim-row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="row">
@@ -156,18 +156,18 @@ $orderID = date('Ymd') . str_pad(mt_rand(1, 999999), 6, '0', STR_PAD_LEFT);
                     </div>
 
                 </div>
-            <div class="ad-banner">
+            <!--div class="ad-banner">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 南科导航-Banner -->
-                        <ins class="adsbygoogle"
+                        <!--ins class="adsbygoogle"
                              style="display:block"
                              data-ad-client="ca-pub-6170983579457537"
                              data-ad-slot="4926806166"
-                             data-ad-format="auto"></ins>
-                        <script>
+                             data-ad-format="auto"></ins-->
+                        <!--script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                    </div>
+                        </script-->
+             </div-->
             </div>
         </div>
     </div>

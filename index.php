@@ -262,16 +262,16 @@ require 'includes/header.php';
                             <i class="icon-jd"></i><br>京东</a>
                     </div>
                     <div class="block-grid">
-                        <a href="https://portal.mypearson.com/login" target="_blank" class="focus">
-                            <i class="fa fa-external-link fa-4x" aria-hidden="true"></i><br>Pearson</a></a>
-                    </div>
-                    <div class="block-grid">
                         <a href="https://www.wolframalpha.com" target="_blank" class="focus">
                             <i class="fa fa-certificate fa-4x" aria-hidden="true"></i><br>WolframAlpha</a>
                     </div>
                     <div class="block-grid">
                         <a href="https://en.wikipedia.org" target="_blank" class="focus">
                             <i class="fa fa-wikipedia-w fa-4x" aria-hidden="true"></i><br>Wikipedia</a>
+                    </div>
+		    <div class="block-grid">
+                        <a href="https://git.cra.moe" target="_blank" class="focus">
+                            <i class="fa fa-git fa-4x" aria-hidden="true"></i><br>校内Git库</a></a>
                     </div>
                     <div class="block-grid">
                         <a href="https://github.com" target="_blank" class="focus">

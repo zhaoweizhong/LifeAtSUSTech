@@ -293,14 +293,11 @@ require 'includes/header.php';
                             <i class="fa fa-book fa-4x" aria-hidden="true"></i><br>山南小馆
                         </a></div>
                     <div class="block-grid">
-                        <a href="https://www.lommevpn.com/" target="_blank" class="focus">
-                            <i class="fa fa-paper-plane fa-4x" aria-hidden="true"></i><br>高速VPN
-                        </a></div>
-                    <div class="block-grid">
                         <a href="https://www.wenjuan.com/s/Yvimua/" target="_blank" class="focus">
                             <i class="fa fa-file-text-o fa-4x" aria-hidden="true"></i><br>申请友链
                         </a></div>
                     <div class="block-grid"></div>
+		    <div class="block-grid"></div>
                     <div class="block-grid"></div>
                     <div class="clear"></div>
                 </div>

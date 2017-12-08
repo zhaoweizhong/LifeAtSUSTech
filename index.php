@@ -39,7 +39,7 @@ require 'includes/header.php';
 	<div class="main main-raised">
         <div class="section section-basic">
             <div class="container">
-                <!--div class="alert alert-info">
+                <div class="alert alert-info">
                     <div class="container-fluid">
                         <div class="alert-icon">
                             <i class="material-icons">info_outline</i>
@@ -47,11 +47,9 @@ require 'includes/header.php';
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true"><i class="material-icons">clear</i></span>
                         </button>
-                        <strong>提示：</strong> 由于本站的域名和服务器是一笔<strong>很大的开销</strong>，另外维护站点也耗费时间精力，所以，喜欢本站就<strong><a href="sponsor.php">赞助</a></strong>吧~
-                        &nbsp;&nbsp;&nbsp;
-                        <a href="sponsor.php" target="_blank">点我赞助</a>
-                    </div>
-                </div-->
+<strong>提示：</strong> 南方科技大学计算机研究协会推出了一项比 GitHub 更高速、方便的<strong>校内Git代码库</strong>服务，欢迎<a href="https://git.cra.moe" target="_blank">点我</a>注册体验
+</div>
+                </div>
 		<!--div class="ad-banner">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- 南科导航-Banner -->

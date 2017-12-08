@@ -9,18 +9,25 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="baidu-site-verification" content="Yw5KH73QOt" />
 
-	<!--     Fonts and icons     -->
+	<!-- Fonts and icons -->
 	<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/icon?family=Material+Icons" />
 	<link rel="stylesheet" href="https://cache.sustech.net/assets/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="https://cache.sustech.net/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cache.sustech.net/assets/css/material-kit.css" rel="stylesheet"/>
+   	<link href="https://cache.sustech.net/assets/css/bootstrap.min.css" rel="stylesheet" />
+   	<link href="https://cache.sustech.net/assets/css/material-kit.css" rel="stylesheet"/>
 	<link href="https://cache.sustech.net/assets/css/fontdiao.css" rel="stylesheet"/>
-    <link href="https://cache.sustech.net/assets/css/style.css" rel="stylesheet" />
-
-	<!-- CSS Just for demo purpose, don't include it in your project -->
+   	<link href="https://cache.sustech.net/assets/css/style.css" rel="stylesheet" />
 	<link href="https://cache.sustech.net/assets/css/demo.css" rel="stylesheet" />
+	
+	<!-- Google Adsense -->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+	    google_ad_client: "ca-pub-6170983579457537",
+	    enable_page_level_ads: true
+	  });
+	</script>
 </head>
 
 <body class="<?php echo $pageType; ?>-page">

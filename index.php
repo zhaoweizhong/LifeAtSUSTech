@@ -40,7 +40,7 @@ require 'includes/header.php';
         <div class="section section-basic">
             <div class="container">
 		<!--div class="ad-banner">
-			
+
 		</div-->
                 <div class="alert alert-info">
                     <div class="container-fluid">
@@ -54,7 +54,7 @@ require 'includes/header.php';
 			    <a href="https://git.cra.moe" target="_blank">传送门</a> (目前仅限校园网/宿舍网访问)
 </div>
                 </div>
-		
+
                 <div class="main-col">
 
                     <div class="main-block">
@@ -237,10 +237,6 @@ require 'includes/header.php';
                             <i class="icon-zhihu-square"></i><br>知乎</a>
                     </div>
                     <div class="block-grid">
-                        <a href="http://www.ted.com/" target="_blank" class="focus">
-                            <i class="fa fa-external-link fa-4x" aria-hidden="true"></i><br>TED</a></a>
-                    </div>
-                    <div class="block-grid">
                         <a href="http://www.weibo.com/" target="_blank" class="focus">
                             <i class="icon-weibo"></i><br>微博</a>
                     </div>
@@ -260,13 +256,17 @@ require 'includes/header.php';
                         <a href="https://en.wikipedia.org" target="_blank" class="focus">
                             <i class="fa fa-wikipedia-w fa-4x" aria-hidden="true"></i><br>Wikipedia</a>
                     </div>
-		    <div class="block-grid">
+		    		<div class="block-grid">
                         <a href="https://git.cra.moe" target="_blank" class="focus">
                             <i class="fa fa-git fa-4x" aria-hidden="true"></i><br>校内Git库</a></a>
                     </div>
                     <div class="block-grid">
                         <a href="https://github.com" target="_blank" class="focus">
                             <i class="fa fa-github fa-4x" aria-hidden="true"></i><br>Github</a>
+                    </div>
+					<div class="block-grid">
+                        <a href="https://sus.tc" target="_blank" class="focus">
+                            <i class="fa fa-link fa-4x" aria-hidden="true"></i><br>SUS.TC网址缩短</a></a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -303,7 +303,7 @@ require 'includes/header.php';
 
                 </div-->
 		<!--div class="ad-banner">
-			
+
 		</div-->
             </div>
         </div>

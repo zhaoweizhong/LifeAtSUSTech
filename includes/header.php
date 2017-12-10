@@ -19,7 +19,7 @@
 	<link href="https://cache.sustech.net/assets/css/fontdiao.css" rel="stylesheet"/>
    	<link href="https://cache.sustech.net/assets/css/style.css" rel="stylesheet" />
 	<link href="https://cache.sustech.net/assets/css/demo.css" rel="stylesheet" />
-	
+
 </head>
 
 <body class="<?php echo $pageType; ?>-page">
@@ -50,6 +50,7 @@
                 <li <?php echo $active1; ?>><a href="https://sustech.net/" class="navShadow"><i class="fa fa-home" aria-hidden="true"></i> 首页</a></li>
                 <li <?php echo $active2; ?>><a href="../bus.php"  target="_blank" class="navShadow"><i class="fa fa-bus" aria-hidden="true"></i> 校园巴士</a></li>
                 <li><a href="https://bbs.sustech.net/"  target="_blank" class="navShadow"><i class="fa fa-comments" aria-hidden="true"></i> BBS论坛</a></li>
+				<li><a href="https://sus.tc/"  target="_blank" class="navShadow"><i class="fa fa-link" aria-hidden="true"></i> 网址缩短</a></li>
             </ul>
 	    	<ul class="nav navbar-nav navbar-right">
                 <li><a href="javascript:void()" onclick="setHome(this, window.location)" class="navShadow"><i class="fa fa-home" aria-hidden="true"></i> 设为首页</a></li>

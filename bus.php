@@ -135,18 +135,9 @@ if ($isWeekday == 1){ // 工作日
         <div class="main main-raised">
             <div class="section">
                 <div class="container">
-                    <div class="ad-banner">
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 南科导航 -->
-                        <ins class="adsbygoogle"
-                             style="display:block"
-                             data-ad-client="ca-pub-6170983579457537"
-                             data-ad-slot="7104224395"
-                             data-ad-format="auto"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                    </div>
+                    <!--div class="ad-banner">
+                        
+                    </div-->
 
                     <div class="row tim-row">
                         <h3>下一班车</h3>
@@ -510,18 +501,9 @@ if ($isWeekday == 1){ // 工作日
                         </div>
 
                     </div>
-                    <div class="ad-banner">
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 南科导航 -->
-                        <ins class="adsbygoogle"
-                             style="display:block"
-                             data-ad-client="ca-pub-6170983579457537"
-                             data-ad-slot="7104224395"
-                             data-ad-format="auto"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                    </div>
+                    <!--iv class="ad-banner">
+                        
+                    </div-->
                 </div>
             </div>
         </div>

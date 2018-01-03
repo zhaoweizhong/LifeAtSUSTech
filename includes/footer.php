@@ -16,7 +16,7 @@
 
         </div>
         <div class="copyright pull-right">
-        Copyright&nbsp;<i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2017&nbsp;洛米科技（深圳）有限公司</div>
+        Copyright&nbsp;<i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;<?php date("Y") ?>&nbsp;洛米科技（深圳）有限公司</div>
     </div>
 </footer>
 </div>

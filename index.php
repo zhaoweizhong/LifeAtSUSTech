@@ -51,7 +51,7 @@ require 'includes/header.php';
                             <span aria-hidden="true"><i class="material-icons">clear</i></span>
                         </button>
 <strong>提示：</strong> 南方科技大学计算机研究协会推出了一项比 GitHub 更高速、方便的<strong>校内 Git 代码库</strong>服务，欢迎<a href="https://git.cra.moe" target="_blank">点我</a>注册体验--->
-			    <a href="https://git.cra.moe" target="_blank">传送门</a> (目前仅限校园网/宿舍网访问)
+			    <a href="https://git.cra.moe" target="_blank">传送门</a> (目前已经支持外网访问)
 </div>
                 </div>
 
